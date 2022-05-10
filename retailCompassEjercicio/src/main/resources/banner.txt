@@ -1,0 +1,13 @@
+RetailCompass: Devolución de monedas 
+Version: 1.0
+Autor: Miguel Pérez
+Spring boot version:${spring-boot.formatted-version}
+Ingresar por postman la siguiente estructura del objecto:
+{
+    "tipo": "X",
+    "valor": "Z"
+}
+NOTA:
+ 1 - Donde X es "USD" y Z el valor "167" en cents que desea cambiar.
+ 2 - El método es de tipo post y pasar por body - raw.
+----------------------------------------------------  START  ---------------------------------------------------------------------
